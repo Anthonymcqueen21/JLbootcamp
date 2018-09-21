@@ -11,7 +11,7 @@
 </template>
 
 <style scoped lang="scss">
-@import "../scss/variables.scss";
+@import "../scss/2vs/variables.scss";
 
 ul{
   font-size: 1.2em;

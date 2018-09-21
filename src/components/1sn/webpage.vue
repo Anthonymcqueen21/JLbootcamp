@@ -1,0 +1,116 @@
+<template>
+	<div id="app">
+		<html>
+			<body>
+				<header>
+					<nav id="main-nav">
+						<div class="wrapper">
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Lessons</a></li>
+								<li><a href="#">Portfolio</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+					</nav>
+					<div class="lead-banner">
+						<img src="../../assets/1sn/banner-1.png" />
+						<div class="banner-content">
+							<div class="wrapper">
+								<span class="title">Check our video</span>
+								<span class="sub-title">Learning in 6 weeks</span>
+							</div>
+						</div>
+					</div>
+				</header>
+				<section id="services">
+					<div class="wrapper">
+						<h1>Services</h1>
+						<p></p>
+						<ul>
+							<li>
+								<img src="../../assets/1sn/icon-1.png" />
+								<a href="#">Recording<br />services</a>
+							</li>
+							<li>
+								<img src="../../assets/1sn/icon-2.png" />
+								<a href="#">Get a printed<br />certificate</a>
+							</li>
+							<li>
+								<img src="../../assets/1sn/icon-3.png" />
+								<a href="#">Lessons via<br />Skype</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<div class="lessons-banner">
+					<img src="../../assets/1sn/banner-2.png" />
+					<div class="banner-content">
+						<div class="wrapper">
+							<span class="title">Our Lessons</span>
+							<span class="sub-title">Are Easy</span>
+							<ul>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<section id="projects">
+					<div class="wrapper">
+						<h1>Our Projects</h1>
+						<ul>
+							<li><img src="http://placehold.it/150x150" /></li>
+							<li><img src="http://placehold.it/150x150" /></li>
+							<li><img src="http://placehold.it/150x150" /></li>
+							<li><img src="http://placehold.it/150x150" /></li>
+							<li><img src="http://placehold.it/150x150" /></li>
+							<li><img src="http://placehold.it/150x150" /></li>
+							<li><img src="http://placehold.it/150x150" /></li>
+							<li><img src="http://placehold.it/150x150" /></li>
+							<li><img src="http://placehold.it/150x150" /></li>
+							<li><img src="http://placehold.it/150x150" /></li>
+							<li><img src="http://placehold.it/150x150" /></li>
+							<li><img src="http://placehold.it/150x150" /></li>
+						</ul>
+					</div>
+				</section>
+			</body>
+		</html>
+	</div>
+</template>
+
+<style scoped lang="scss">
+@import "src/scss/1sn/styles.scss"; 
+body {
+  background: #f8f9fb;
+}
+
+html, body, ul, ol, li, form, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+</style>

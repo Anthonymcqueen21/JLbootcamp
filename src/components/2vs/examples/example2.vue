@@ -20,8 +20,8 @@ export default{
 </script>
 
 <style scoped lang="scss">
-// @import "src/scss/variables.scss"; (absolute path)
-@import "./../../../scss/variables.scss";
+// @import "src/scss/1sn/variables.scss"; (absolute path)
+@import "../../../scss/2vs/variables.scss";
 
 body {
   background: #d1d3d4;

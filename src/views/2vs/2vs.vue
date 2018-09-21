@@ -16,8 +16,8 @@
 
     <h4>Examples and Challenges</h4>
 		<ul id="specifics">
-			<li><router-link to="/2vs/examples" exact class="list" id="vsList1">Examples List 1</router-link></li>
-			<li><router-link to="/2vs/challenges" exact class="list" id="vsList2">Challenges List 2</router-link></li>
+			<li><router-link to="/2vs/examples" exact class="list" id="vsList1">Examples List</router-link></li>
+			<li><router-link to="/2vs/challenges" exact class="list" id="vsList2">Challenges List</router-link></li>
 		</ul>
 
 		<h4>Vue Ecosystem</h4>

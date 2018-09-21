@@ -18,9 +18,9 @@
         <li>The @Content Keyword</li>
         <li>If Statements</li>
       </ol>
-		<h4>Vue Ecosystem</h4>
+		<h4>Webpage made with Scss</h4>
 		<ul id="blogs">
-			<li><a id="blogs-2-1" href="http://router.vuejs.org/" target="_blank" >Sass 1 of 2</a></li>
+			<li><router-link to="/1sn/webpage" exact class="list" id="snList">Webpage Link</router-link></li>
 		</ul>
     </body>
   </div>
@@ -76,7 +76,7 @@ h4{
   list-style-position: inside;
 }
 
-#titles, #ecosystem, #blogs{
+#titles, #blogs{
   padding: 0;
   margin: 10px 0 10px 0;
 }
@@ -86,22 +86,22 @@ h4{
   margin: 0 10px;
 }
 
-a#blogs-2-1:link{
+a#snList:link{
   text-decoration: none;
   color: darkgray;
 }
-a#blogs-2-1:visited{
+a#snList:visited{
   color: darkgray;
 }
-a#blogs-2-1:hover{
+a#snList:hover{
   color: green;
   text-decoration: underline;
 }
-a#blogs-2-1:active{
+a#snList:active{
   background-color: lightgray;
 }
 
-// .secondList{
-// 	font-size: 1.1em
-// }
+.list{
+	font-size: 1.1em
+}
 </style>

@@ -1,5 +1,6 @@
 import mainPage from './components/mainPage.vue';
 import one from './views/1sn/1sn.vue';
+import oneWebpage from './components/1sn/webpage.vue'
 
 import two from './views/2vs/2vs.vue';
 import twoExamplesList from './views/2vs/examplesList.vue';
@@ -12,6 +13,7 @@ import twoChallenge2 from './components/2vs/challenges/challenge2.vue';
 export default[
   { path: '/', component: mainPage },
   { path: '/1sn', component: one },
+  { path: '/1sn/webpage', component: oneWebpage },
 
   { path: '/2vs', component: two },
   { path: '/2vs/examples', component: twoExamplesList },
