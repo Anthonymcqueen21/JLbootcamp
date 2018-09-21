@@ -15,7 +15,7 @@
       </ol>
 
     <h4>Examples and Challenges</h4>
-		<ul>
+		<ul id="specifics">
 			<li><router-link to="/2vs/examples" exact class="list" id="vsList1">Examples List 1</router-link></li>
 			<li><router-link to="/2vs/challenges" exact class="list" id="vsList2">Challenges List 2</router-link></li>
 		</ul>
@@ -37,7 +37,7 @@ export default{
   data () {
     return {
       nth: '2nd Class',
-      title: '[FrontEnd Masters] Intro to Vue Tutorial by Sarah Drasner'
+      title: 'Intro to Vue Tutorial by Sarah Drasner @ FrontEnd Masters'
     }
   }
 }
@@ -81,8 +81,8 @@ h4{
   list-style-position: inside;
 }
 
-#titles, #ecosystem{
-  padding: 0;
+#titles, #specifics, #ecosystem{
+  padding: 0 0 0 0;
   margin: 10px 0 10px 0;
 }
 

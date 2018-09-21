@@ -11,7 +11,6 @@
         <li>Nesting Styles</li>
         <li>Mixins</li>
         <li>Importing Files</li>
-        <li>Importing Files</li>
         <li>Pseudo Classes</li>
         <li>Mathematical Operators</li>
         <li>Creating a Grid w/ Sass Math</li>
@@ -33,7 +32,7 @@ export default{
   data () {
     return {
       nth: '1st Class',
-      title: '[Net Ninja] Sass Tutorial'
+      title: 'Sass Tutorial by Net Ninja @ YouTube'
     }
   }
 }
@@ -77,7 +76,7 @@ h4{
   list-style-position: inside;
 }
 
-#titles, #ecosystem{
+#titles, #ecosystem, #blogs{
   padding: 0;
   margin: 10px 0 10px 0;
 }
