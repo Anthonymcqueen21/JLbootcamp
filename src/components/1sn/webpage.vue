@@ -86,7 +86,8 @@
 <style scoped lang="scss">
 @import "src/scss/1sn/styles.scss"; 
 body {
-  background: #f8f9fb;
+	// background: red;
+	background: $offWhite;
 }
 
 html, body, ul, ol, li, form, fieldset, legend {
