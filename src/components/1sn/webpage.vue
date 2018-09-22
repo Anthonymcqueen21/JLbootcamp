@@ -85,6 +85,8 @@
 
 <style scoped lang="scss">
 @import "src/scss/1sn/styles.scss"; 
+@import "src/scss/1sn/mixins.scss"; 
+
 body {
 	// background: red;
 	background: $offWhite;

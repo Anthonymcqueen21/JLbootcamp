@@ -1,0 +1,42 @@
+@mixin banner{
+	width: 100%;
+	position: relative;
+	color: white;
+	.banner-content{
+		position: absolute;
+		top: 50px;
+		width: 100%;
+	}
+	img{
+		width: 100%;
+	}
+	span{
+		font-size: $bannerHeading;
+		display: block;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	span.title{
+		font-weight: normal;
+		margin-bottom: 10px;
+	}
+	span.sub-title{
+		font-weight: normal;
+		margin-bottom: 30px;
+	}
+} // end @mixin banner
+
+.lead-banner{
+	@include banner;
+	text-align: right;
+}
+
+.lessons-banner{
+	@include banner;
+	li{
+		text-transform: uppercase;
+		font-size: 20px;
+		max-width: 700px;
+		margin: 20px 0;
+	}
+}
