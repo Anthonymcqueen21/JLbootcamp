@@ -84,36 +84,8 @@
 </template>
 
 <style scoped lang="scss">
+@import "src/scss/1sn/variables.scss";
+@import "src/scss/1sn/reset.scss"; 
+@import "src/scss/1sn/mixins.scss";  
 @import "src/scss/1sn/styles.scss"; 
-@import "src/scss/1sn/mixins.scss"; 
-
-body {
-	// background: red;
-	background: $offWhite;
-}
-
-html, body, ul, ol, li, form, fieldset, legend {
-  margin: 0;
-  padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-  margin-top: 0;
-}
-
-fieldset, img {
-  border: 0;
-}
-
-li {
-  list-style: none;
-}
-
-.wrapper {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
-}
 </style>

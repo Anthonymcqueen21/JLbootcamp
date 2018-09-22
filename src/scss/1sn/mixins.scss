@@ -25,18 +25,3 @@
 		margin-bottom: 30px;
 	}
 } // end @mixin banner
-
-.lead-banner{
-	@include banner;
-	text-align: right;
-}
-
-.lessons-banner{
-	@include banner;
-	li{
-		text-transform: uppercase;
-		font-size: 20px;
-		max-width: 700px;
-		margin: 20px 0;
-	}
-}
