@@ -25,3 +25,12 @@
 		margin-bottom: 30px;
 	}
 } // end @mixin banner
+
+@mixin clearFix{
+	&::after{
+		content: '';
+		display: block;
+		// clear: "left" okay, "right" not okay
+		clear: both;
+	}
+}
