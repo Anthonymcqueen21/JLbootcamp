@@ -47,3 +47,10 @@
 		margin-right: 0;
 	}
 }
+
+@mixin mediaQuery($arg){
+	@media screen and (max-width: $arg){
+		// allows us to define a mixin when we use them
+		@content;
+	}
+}
