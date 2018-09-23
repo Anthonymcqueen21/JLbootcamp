@@ -75,4 +75,11 @@ section h1{
 	ul{
 		@include clearFix;
 	}
+} // "services" END
+
+#projects li{
+	@include grid(4, 2%);
+	img{
+		width: 100%;
+	}
 }

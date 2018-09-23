@@ -33,4 +33,17 @@
 		// clear: "left" okay, "right" not okay
 		clear: both;
 	}
+} 
+
+@mixin grid($columns, $margin){
+	float: left;
+	// separate columns apart
+	margin-right: $margin;
+	margin-bottom: $margin;
+	// equally spreads elements on each row
+	width: ((100% - (($columns - 1) * $margin)) / $columns);
+	// assigns "margin-right:0" to the last child on each row.
+	&:nth-child(#{$columns}n){
+		margin-right: 0;
+	}
 }
