@@ -15,7 +15,9 @@
 		display: block;
 		text-align: center;
 		&:hover{
-			background: palevioletred;
+			// http://bit.ly/Sass_functions
+			// higher amount - lighter color
+			background: lighten($deepBlue, 50);
 		}
 	}
 } // end #main-nav
