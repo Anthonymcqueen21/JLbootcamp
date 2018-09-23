@@ -15,6 +15,10 @@
 		display: block;
 		text-transform: uppercase;
 		font-weight: bold;
+		@include mediaQuery(3000px, 1024px){
+			font-size: 5em;
+			color: black;
+		}
 	}
 	span.title{
 		font-weight: normal;
@@ -48,9 +52,17 @@
 	}
 }
 
-@mixin mediaQuery($arg){
-	@media screen and (max-width: $arg){
-		// allows us to define a mixin when we use them
-		@content;
+// "...": doesn't specify how many arguments we'll have in this mixin
+@mixin mediaQuery($arg...){
+	@if length($arg) == 1 {
+		@media screen and (max-width: nth($arg, 1)){
+			// allows us to define a mixin when we use them
+			@content;
+		}
+	}
+	@if length($arg) == 2 {
+		@media screen and (max-width: nth($arg, 1)) and (min-width: nth($arg, 2)){
+			@content;
+		}
 	}
 }
